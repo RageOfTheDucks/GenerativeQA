@@ -14,6 +14,7 @@ Approaches:
 
 - Reference model: T5
 - Ensamble model
+
   The base idea is to decompose the problem into two main branches of questions: yes-or-no questions and open questions. In yes-or-no question it would use a BooleanQA approach, while in open questions it would use in sequence an ExtractiveQA model and then a generative text-to-text model to better structure/generate the answer.
 
 ---
